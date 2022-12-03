@@ -9,7 +9,7 @@ const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michel
 function printStudentNames(){
 for (let index = 0; index < studentList.length; index++) {
     const element = studentList[index];
-    console.log(element)
+    console.log("Name [",index,"] -",element)
     
 }
 }
